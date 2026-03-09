@@ -1,0 +1,25 @@
+{
+  "name": "@hand-on-web/testimonial-widget",
+  "version": "1.0.0",
+  "description": "Embeddable customer testimonial carousel widget with star ratings and auto-rotation",
+  "main": "testimonial-widget.js",
+  "homepage": "https://www.handonweb.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hand-On-Web-Ltd/testimonial-widget.git"
+  },
+  "keywords": [
+    "testimonials",
+    "widget",
+    "reviews",
+    "carousel",
+    "embed",
+    "social-proof"
+  ],
+  "author": "Hand On Web Ltd <outreach@handonweb.com>",
+  "license": "MIT",
+  "files": [
+    "testimonial-widget.js",
+    "testimonial-widget.css"
+  ]
+}
