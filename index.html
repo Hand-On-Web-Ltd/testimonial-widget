@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Widget Demo</title>
+    <link rel="stylesheet" href="testimonial-widget.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #222;
+            margin-bottom: 8px;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testimonial Widget</h1>
+    <p class="subtitle">A simple, embeddable testimonial carousel</p>
+
+    <div id="testimonials"
+         data-testimonials='[
+           {"name":"Sarah Mitchell","text":"Had our chatbot running in two days. The team was helpful and quick to respond.","rating":5,"company":"Chester Bakery"},
+           {"name":"James Taylor","text":"We cut our email handling time in half. Really happy with the setup.","rating":5,"company":"Taylor & Sons"},
+           {"name":"Priya Kapoor","text":"Great work on our website redesign. Clean, fast, and exactly what we asked for.","rating":4,"company":"NK Design Studio"},
+           {"name":"Tom Richards","text":"The voice agent handles 80% of our calls now. Game changer for a small team.","rating":5,"company":"Richards Plumbing"},
+           {"name":"Lisa Chen","text":"Professional, easy to work with, and delivered on time. Would use again.","rating":5}
+         ]'
+         data-interval="4000"
+         data-auto-rotate="true">
+    </div>
+
+    <script src="testimonial-widget.js"></script>
+    <script>
+        TestimonialWidget.init('#testimonials');
+    </script>
+</body>
+</html>
